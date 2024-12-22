@@ -1,3 +1,12 @@
+# Notes:
+Basically the Github Pages have certain constraints
+- **Personal Pages (One per Account)**:
+  Each GitHub user or organization can have one personal GitHub Pages site. This is hosted at https://<username>.github.io/.
+- **Project Pages (Unlimited per Account)**:
+  You can create a GitHub Pages site for each repository you have. These are hosted as https://<username>.github.io/<repository-name>/.
+
+Next time look on here and not spending to much thinking the problem is otherwise.
+
 # Chirpy Starter
 
 [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
