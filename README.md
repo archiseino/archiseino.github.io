@@ -7,6 +7,21 @@ Basically the Github Pages have certain constraints
 
 Next time look on here and not spending to much thinking the problem is otherwise.
 
+Typical project structure on Jekyll
+```yaml
+.
+├── _config.yml ## Main Config File
+├── _includes/  ## Contains reusable partials like headers, footers, or navbars
+├── _layouts/   ## Houses the templates that define the structure of different types of pages.
+├── _posts/     ## Contains blog posts written in Markdown or HTML  
+├── _data/      ## Stores custom data files (in YAML, JSON, or CSV) that can be used throughout the site.
+├── _sass/      ## Contains SCSS partials for styling, which can be imported into a main SCSS file.
+├── assets/     ## Stores static assets like CSS, JavaScript, images, and fonts.
+├── _site/      ## The output folder where the generated static site is placed. (Automatic)
+├── index.html
+└── other_pages.md
+```
+
 # Chirpy Starter
 
 [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
