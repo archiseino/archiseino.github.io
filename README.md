@@ -7,6 +7,23 @@ Basically the Github Pages have certain constraints
 
 Next time look on here and not spending to much thinking the problem is otherwise.
 
+### Path in Development vs Deployment
+in development, set the `baseurl` to `""` and for deployment, set the baseurl on which url as teh starting point.
+> the baseurl will be a variable that can be use for pathing.
+
+For variable one set like this to ensure the baseUrl is in the path when in deployment
+```html
+<span class="image">
+    <img src="{{ site.baseurl }}/{{ page.image }}" alt="">
+</span>
+```
+And for the static pages, use both `site.baseurl` and combination of `% links %` for the improve pathing for static files
+```html
+<span class="image fit">
+    <img src="{{ site.baseurl }}/{% link assets/images/glasses-poster.png %}" alt="">
+</span>
+```
+
 Typical project structure on Jekyll
 ```yaml
 .
